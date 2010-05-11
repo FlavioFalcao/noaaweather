@@ -1,0 +1,141 @@
+.stars {
+	float: left;
+	height: 14px;
+	overflow: hidden;
+	width: 85px;
+}
+
+.stars .no,
+.stars .yes {
+	float: left;
+	width: 17px;
+}
+
+.stars .yes {
+	background: transparent url(images/star.gif) no-repeat scroll 0 -14px;
+}
+
+.stars .no {
+	background: transparent url(images/star.gif) no-repeat 0 0px;
+}
+
+.flip_key{
+border:1px solid #DDD5BC;
+margin:10px 0 0;
+padding:10px;
+}
+
+
+.flipkey_rating {
+	margin: 0px 0px 20px 0px;
+}
+
+.flipkey_rating label {
+	float: left;
+}
+
+#flipkey_toggle {
+	display: none;
+	/*position: absolute;
+	top: 820px;*/
+	top: -50px;
+	max-height: 555px;
+	width: 430px;
+	background-color: #c1b9a8;
+	padding: 10px;
+	border: solid 1px #000;
+}
+
+#flipkey_inner {
+	width: 408px;
+	background:#fff;
+	max-height: 480px;
+	border: solid 1px #000;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px;
+	position: static;
+}
+
+
+#flipkey_all_inner {
+	
+	background:#fff;
+	border: solid 1px #000;
+	padding: 10px;
+}
+
+.flipkey_all {
+	width: 600px;
+	margin-bottom:10px;
+}
+
+#flipkey_toggle h3 {
+	margin: 5px 0px;
+}
+
+#flipkey_close {
+	clear: both;
+	margin-bottom: 5px;
+	cursor: pointer;
+	width: 100px;
+}
+
+#flipkey_details {
+	margin-bottom: 5px;
+	cursor: pointer;
+	width: 100px;
+}
+
+.flipkey_details {
+	margin-bottom: 20px;
+}
+
+.flipkey_close,
+.flipclear {
+	clear: both;
+	line-height: 1px;
+}
+
+
+a.fliplink, a.fliplink:hover, a.fliplink:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#882526;
+}
+
+#flipkey_header {
+	margin-bottom:3px;
+	position: static;
+}
+
+#flipkey_propname {
+	float:left; 
+	font-weight:bolder;
+	padding:3px 3px 0 0;
+	color:#816137;
+}
+#flipkey_logo{
+	float:right; 
+}
+
+#flipkey_mgrresponse{
+	margin:5px 0 5px 40px;
+	font-style:italic;
+}
+
+
+.flip_title_link{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bolder;
+	color:#882526;
+}
+
+.flip_title{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bolder;
+	
+}
